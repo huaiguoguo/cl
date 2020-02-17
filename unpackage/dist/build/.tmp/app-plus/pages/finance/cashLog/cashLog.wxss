@@ -1,0 +1,138 @@
+
+page {
+	background: #000000;
+}
+.container {
+	width: 100%;
+	height: 100%;
+	font-size: 30rpx;
+	color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+/* 导航 */
+.container .nav {
+	width: 98%;
+	height: 100%;
+	background: #000000;
+	
+	border: 6rpx solid #414040;
+	
+	display: -webkit-box;
+	
+	display: -webkit-flex;
+	
+	display: -ms-flexbox;
+	
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	
+	/* padding: 15upx 0upx; */
+}
+.container .nav .item {
+	width: 25%;
+	height: 100%;
+	/* background: red; */
+	
+	text-align: center;
+	padding: 15rpx 0rpx;
+}
+.container .nav .item:nth-child(1),.item:nth-child(2),.item:nth-child(3) {
+	/* margin-left: 15upx; */
+	border-right: 6rpx solid #414040;
+}
+
+/* 记录 logList */
+.container .logList {
+	width: 100%;
+	height: 100%;
+	/* background: red; */
+}
+.container .logList .item {
+	width: 100%;
+	height: 100%;
+	
+	/* background: blue; */
+	
+	display: -webkit-box;
+	
+	display: -webkit-flex;
+	
+	display: -ms-flexbox;
+	
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	
+	font-size: 24rpx;
+	
+	text-align: center;
+	
+	padding: 15rpx 0rpx;
+	margin-top: 15rpx;
+	
+	border-bottom: 1rpx solid #FCFCFC;
+}
+.container .logList .item .date {
+	width: 25%;
+	height: 100%;
+	/* background: pink; */
+	font-size: 23rpx;
+	/* margin-left: -10upx; */
+}
+.container .logList .item .amount {
+	width: 25%;
+	height: 100%;
+	/* background: pink; */
+}
+.container .logList .item .service {
+	width: 25%;
+	height: 100%;
+	/* background: pink; */
+}
+.container .logList .item .status {
+	width: 25%;
+	height: 100%;
+	/* background: pink; */
+}
+
+

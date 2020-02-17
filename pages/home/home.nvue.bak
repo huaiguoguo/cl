@@ -1,0 +1,118 @@
+<template>
+	<div>
+		
+<div id="head" class="head">
+    <div id="apptitle" class="menu2-index">
+    </div>
+</div>
+<div id="wifi" class="context" style="display: none;">
+    <div class="indexMain">
+        <a href="javascript:init();">
+            <img src="images/wifi.png" style="width: 3rem; height: 2rem; margin-top: 50%;">
+            <p style="color: #FFF;">
+                网络错误点击图标重新加载</p>
+        </a>
+    </div>
+</div>
+
+<div id="main" class="context" style="background: url(images/xixi-2.png) top center no-repeat #000000;
+        background-size: cover;">
+    <div class="indexMain">
+        <div class="center swiper-container">
+            <div class="swiper-container1">
+                <div class="swiper-wrapper" id="newsimg" style="display:none;">
+
+                </div>
+                <div class="swiper-pagination">
+                </div>
+            </div>
+        </div>
+        <div class="notice bgd-index-icon2" id="topnews">
+
+            <div class="notice_active" id="news">
+                <div class="mo-left">
+                    公告：
+                </div>
+                <div class="marquee">
+                    <div id="newstitle" class="marquee-div">
+
+                    </div>
+                </div>
+            </div>
+            <div class="notice_active" id="top">
+                <div class="mo-left">
+                    恭喜：
+                </div>
+                <div class="marquee">
+                    <div id="toplottery" class="marquee-div"></div>
+                </div>
+
+            </div>
+        </div>
+            <div class="con_roomli" style="position: absolute;">
+                <div class="con_roomli_a">
+                    <div>
+                        <img src="/images/beijing.png" onclick="comm.gotoroom(1)" style="max-width: 100%;">
+                        <a href="/app/html/newsinfo.html?id=39&amp;typeid=1"><div class="indexhover" style="margin-top: -50px;position: relative;height: 40px;z-index: 10;"></div></a>
+                    </div>
+                </div>
+                <div class="con_roomli_a">
+                    <div>
+                        <img src="/images/jianada.png" onclick="comm.gotoroom(2)" style="max-width: 100%;">
+                        <a href="/app/html/newsinfo.html?id=38&amp;typeid=1"><div class="indexhover" style="margin-top: -50px;position: relative;height: 40px;z-index: 10;"></div></a>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+<div class="foot">
+    <div class="menu">
+        <div class="bt-name">
+            <div style="width: 0.8rem; height: 1rem; display: none" class="bgd-foot-icon foot-icon1">
+            </div>
+            <div style="width: 0.8rem; height: 1rem;" class="bgd-foot-icon foot-icon2">
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="bt-name" onclick="run('page.appevent.openhtml',1)">
+            <div style="width: 0.8rem; height: 1rem;" class="bgd-foot-icon foot-icon3">
+            </div>
+            <div style="width: 0.8rem; height: 1rem; display: none" class="bgd-foot-icon foot-icon4">
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="bt-name" onclick="window.open('anncen.html','_self')">
+            <div style="width: 0.8rem; height: 1rem;" class="bgd-foot-icon foot-icon5">
+            </div>
+            <div style="width: 0.8rem; height: 1rem; display: none" class="bgd-foot-icon foot-icon6">
+            </div>
+            <div class="msgnum">
+                <span class="spanmsgnum" style="display: none;"></span>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="bt-name" onclick="run('page.appevent.openhtml',2)">
+            <div style="width: 0.8rem; height: 1rem;" class="bgd-foot-icon foot-icon7">
+            </div>
+            <div style="width: 0.8rem; height: 1rem; display: none" class="bgd-foot-icon foot-icon8">
+            </div>
+
+        </div>
+    </div>
+</div>
+	</div>
+	</div>
+</template>
+
+<script>
+	export default {
+		
+	}
+</script>
+
+<style>
+
+</style>

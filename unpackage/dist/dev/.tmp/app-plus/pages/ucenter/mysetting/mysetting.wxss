@@ -1,0 +1,107 @@
+
+page{
+	background: #000000;
+}
+.container {
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-top: 15rpx;
+}
+.container .item {
+	width: 90%;
+	height: 100%;
+	border-bottom: 1px solid #776f71;
+	color: #FFFFFF;
+	font-size: 30rpx;
+	
+	display: -webkit-box;
+	
+	display: -webkit-flex;
+	
+	display: -ms-flexbox;
+	
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.container .item .icon {
+	width: 100rpx;
+	height: 100rpx;
+	background: url(http://down.hongxing.ws/static/img/icon1.png) no-repeat;
+	background-size: 1300rpx auto;
+	background-position: -40rpx -380rpx;
+	/* margin-right: 10upx; */
+	margin-left: -20rpx;
+}
+.container .item .editNickname {
+	background-position: -1040rpx -948rpx;
+}
+.container .item .editPassword {
+	background-position: -1128rpx -530rpx;
+}
+.container .item .securityPassword {
+	background-position: -1128rpx -620rpx;
+}
+.container .item .cashAccount {
+	background-position: -1038rpx -872rpx;
+}
+.container .item .repaceMobile {
+	background-position: -1130rpx -725rpx;
+}
+.container .item .bindEmail {
+	background-position: -1130rpx -825rpx;
+}
+.container .item .cleanCache {
+	background-position: -1130rpx -930rpx;
+}
+.container .item .exitLogin {
+	background-position: -1130rpx -1038rpx;
+}
+.container .item .title {
+	width: 45%;
+	/* background: #0062CC; */
+	
+	margin-right: 250rpx;
+}
+.container .item .right-arrow {
+	width: 15rpx;
+	height: 15rpx;
+	/* background: #0062CC; */
+	border-top: 1px solid #C0C0C0;
+	border-right: 1px solid #C0C0C0;
+	-webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	
+	margin-right: 20rpx;
+}
+
+

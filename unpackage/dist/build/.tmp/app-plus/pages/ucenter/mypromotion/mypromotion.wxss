@@ -1,0 +1,81 @@
+
+page {
+	background: #000000;
+}
+.container {
+	width: 100%;
+	height: 100%;
+	color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.container .item {
+	width: 90%;
+	height: 100%;
+	border-bottom: 0.5px solid #CCCACC;
+	padding: 10rpx 0rpx;
+	
+	display: -webkit-box;
+	
+	display: -webkit-flex;
+	
+	display: -ms-flexbox;
+	
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 28rpx;
+}
+.container .item .icon {
+	width: 100rpx;
+	height: 100rpx;
+	background: url(http://down.hongxing.ws/static/img/icon1.png) no-repeat;
+	background-size: 1300rpx auto;
+	background-position: -40rpx -380rpx;
+	/* margin-right: 10upx; */
+}
+.container .item .title {
+	width:70%;
+	/* background-color: #0000FF; */
+}
+.container .item .right-arrow {
+	width: 10rpx;
+	height: 10rpx;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	
+	-webkit-transform: rotate(45deg);
+	
+	    -ms-transform: rotate(45deg);
+	
+	        transform: rotate(45deg);
+	
+	margin-left: 30rpx;
+}
+

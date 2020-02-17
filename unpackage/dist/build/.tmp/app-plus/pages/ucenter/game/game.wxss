@@ -1,0 +1,175 @@
+
+page{
+	background: #000000;
+}
+.container {
+	/* width: 100%; */
+	/* height: 100%; */
+	/* background: #000000; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.container .navbar {
+	width: 100%;
+	height: 100%;
+	color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-bottom: 1px solid #FFFFFF;
+}
+.container .navbar .tab {
+	/* width: 100%; */
+	/* height: 100%; */
+	font-size: 30rpx;
+	text-align: center;
+	padding: 25rpx 0rpx;
+	margin-top: 20rpx;
+}
+.container .navbar .right-arrow {
+	/* display: block; */
+	width: 15rpx;
+	height: 15rpx;
+	/* background: #0000FF; */
+	border-top: 1px solid #C0C0C0;
+	border-right: 1px solid #C0C0C0;
+	
+	margin-left: 20rpx;
+	margin-top: 15rpx;
+	
+	-webkit-transform: rotate(135deg);
+	
+	    -ms-transform: rotate(135deg);
+	
+	        transform: rotate(135deg);
+}
+.container .gameLogList {
+	color: #a0a0a0;
+	font-size: 25rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-bottom: 105rpx;
+	margin-top: 25rpx;
+}
+.container .gameLogList .item {
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	background: #1F1F21;
+	
+	border-radius: 10rpx;
+	padding: 10rpx 15rpx;
+	
+	margin-top: 15rpx;
+}
+.container .gameLogList .item .title_date {
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 8rpx 3rpx;
+}
+.container .gameLogList .item .title_date .title {
+	width: 50%;
+	/* background: red; */
+}
+.container .gameLogList .item .title_date .date {
+	width: 40%;
+	
+	margin-left: 40rpx;
+	/* background: blue; */
+	text-align: right;
+}
+.container .gameLogList .item .openResult, .mybet, .winnerResult {
+	width: 650rpx;
+	height: 100%;
+	text-align: left;
+	padding: 8rpx 3rpx;
+	/* background: yellow; */
+}
+.container .gameLogList .item .mybet {
+	width: 650rpx;
+	/* background: pink; */
+	text-align: left;
+}
+.container .gameLogList .item .winnerResult {
+	width: 650rpx;
+	text-align: left;
+}
+
+

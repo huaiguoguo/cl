@@ -1,0 +1,56 @@
+
+page{
+	background: #000000;
+}
+.container {
+	width: 100%;
+	height: 100%;
+	color: #FFFFFF;
+}
+.edit_input {
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: left;
+	-webkit-justify-content: left;
+	    -ms-flex-pack: left;
+	        justify-content: left;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 30rpx;
+	border-bottom: 0.5px solid #CCCCCC;
+	margin-bottom: 30rpx;
+	margin-top: 30rpx;
+}
+.edit_input .title {
+	width: 20%;
+	height: 100%;
+	/* background: #0000FF; */
+	margin: 30rpx 0rpx;
+	margin-left: 30rpx;
+	text-align: center;
+}
+.edit_input .input {
+	width: 65%;
+	height: 50rpx;
+	/* background: #0000FF; */
+	text-align: left;
+	line-height: 50rpx;
+}
+.button {
+	width: 70%;
+	background: #efa909;
+	/* font-size: 30upx; */
+}
+
+

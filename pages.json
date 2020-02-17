@@ -1,0 +1,259 @@
+{
+	"pages": [
+	    {
+            "path" : "pages/home/home",
+            "style" : {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor":"#000000"
+			}
+        },
+		{
+			"path": "pages/ucenter/ucenter",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor":"#191816"
+			}
+		}
+        ,{
+            "path" : "pages/finance/finance",
+            "style" : {
+				"navigationBarTitleText": "财务",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/notice/notice",
+            "style" : {
+				"navigationBarTitleText": "公告",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/game/game",
+            "style" : {
+				"navigationBarTitleText": "游戏记录",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/mypromotion/mypromotion",
+            "style" : {
+				"navigationBarTitleText": "我的推广",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/myshare/myshare",
+            "style" : {
+				"navigationBarTitleText": "我的分享",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/download/download",
+            "style" : {
+				"navigationBarTitleText": "我的下载",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/mysetting/mysetting",
+            "style" : {
+				"navigationBarTitleText": "我的设置",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/online/online",
+            "style" : {
+				"navigationBarTitleText": "在线客服",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/about/about",
+            "style" : {
+				"navigationBarTitleText": "关于我们",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/mysetting/editNickname/editNickname",
+            "style" : {
+				"navigationBarTitleText": "修改昵称",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/mysetting/editPassword/editPassword",
+            "style" : {
+				"navigationBarTitleText": "修改密码",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/mysetting/securityPassword/securityPassword",
+            "style" : {
+				"navigationBarTitleText": "安全密码",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/mysetting/cashAccount/cashAccount",
+            "style" : {
+				"navigationBarTitleText": "提现账户",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/mysetting/repaceMobile/repaceMobile",
+            "style" : {
+				"navigationBarTitleText": "更换手机",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/mysetting/bindEmail/bindEmail",
+            "style" : {
+				"navigationBarTitleText": "绑定邮箱",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/mysetting/cashAccount/addCashAccount/addCashAccount",
+            "style" : {
+				"navigationBarTitleText": "添加提现账号",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/Login/Login",
+            "style" : {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/finance/recharge/recharge",
+            "style" : {
+				"navigationBarTitleText": "账号充值",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/finance/recharge/doRecharge/doRecharge",
+            "style" : {
+				"navigationBarTitleText": "充值",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/finance/cash/cash",
+            "style" : {
+				"navigationBarTitleText": "提现",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/finance/accountLog/accountLog",
+            "style" : {
+				"navigationBarTitleText": "账变记录",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/finance/rechargeLog/rechargeLog",
+            "style" : {
+				"navigationBarTitleText": "充值记录",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/finance/cashLog/cashLog",
+            "style" : {
+				"navigationBarTitleText": "提现记录",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/Register/Register",
+            "style" : {
+				"navigationBarTitleText": "新用户注册",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/Forget/Forget",
+			"style" : {
+				"navigationBarTitleText": "忘记密码",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/notice/detail/detail",
+			"style" : {
+				"navigationBarTitleText": "消息详情",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/home/chat/chat",
+			"style" : {
+				"navigationBarTitleText": "聊天室",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/mysetting/agree/agree",
+			"style" : {
+				"navigationBarTitleText": "平台注册条款",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+        ,{
+            "path" : "pages/home/introduction/introduction",
+			"style" : {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor":"#191816"
+			}
+        }
+    ],
+	"tabBar": {
+		"color": "#494846",
+		"selectedColor": "#DF8B10",
+		"backgroundColor": "#000000",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/img/home.png",
+				"selectedIconPath": "static/img/home-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/finance/finance",
+				"iconPath": "static/img/finance.png",
+				"selectedIconPath": "static/img/finance-active.png",
+				"text": "财务"
+			},
+			{
+				"pagePath": "pages/notice/notice",
+				"iconPath": "static/img/notice.png",
+				"selectedIconPath": "static/img/notice-active.png",
+				"text": "公告"
+			},
+			{
+				"pagePath": "pages/ucenter/ucenter",
+				"iconPath": "static/img/ucenter.png",
+				"selectedIconPath": "static/img/ucenter-active.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "红星娱乐",
+		"navigationBarBackgroundColor": "#2F85FC",
+		"backgroundColor": "#FFFFFF"
+	} 
+}

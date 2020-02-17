@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "添加提现账号",
+  "navigationBarBackgroundColor": "#191816",
+  "usingComponents": {
+    "xfl-select": "/components/xfl-select/xfl-select"
+  }
+}

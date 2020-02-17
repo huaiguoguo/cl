@@ -1,0 +1,1 @@
+<view class="container"><block wx:for="{{dataList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['goDetail',['$0'],[[['dataList','',index,'name']]]]]]]}}" class="item" bindtap="__e"><view class="{{[item.class]}}"></view><view class="title">{{item.title}}</view><view class="right-arrow"></view></view></block></view>

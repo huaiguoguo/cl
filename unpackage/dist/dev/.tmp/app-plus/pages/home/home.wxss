@@ -1,0 +1,227 @@
+
+page{
+		/* background: #000000; */
+}
+	
+	/* @import url("/static/css/swiper.min.css"); */
+.container {
+		width: 100%;
+		/* height: 120%; */
+		/* background: url(http://down.hongxing.ws/static/img/xixi-2.png) no-repeat; */
+		background: #000000;
+		background-size: cover;
+		color: #007AFF;
+		font-size: 40rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		
+		padding-bottom: 150rpx;
+}
+.header{
+		width: 100%;
+		height: 100%;
+		/* background-color: #289063; */
+}
+.header .swiper-item {
+		height: 100%;
+}
+.header image{
+		width: 100%;
+		background-size: contain;
+}
+	
+	/* 以下是公告 */
+.notice {
+		width: 705rpx;
+		height: 105rpx;
+		/* background-color: #0000FF; */
+		text-align: left;
+		text-indent: 20px;
+		overflow: auto;
+		background: url(http://down.hongxing.ws/static/img/gonggao.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		font-size: 25rpx;
+		margin-top: 80rpx;	
+		
+		display: -webkit-box;	
+		
+		display: -webkit-flex;	
+		
+		display: -ms-flexbox;	
+		
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+}
+.notice .item {
+		width: 88%;
+		height: 50rpx;
+		line-height: 50rpx;
+		/* background: red; */
+		color: #FFFFFF;
+		
+		display: -webkit-box;
+		
+		display: -webkit-flex;
+		
+		display: -ms-flexbox;
+		
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+}
+.notice .item:last-child{
+		/* margin-top: 5upx; */
+}
+.notice .item .title {
+		width: 100rpx;
+		height: 50rpx;
+		line-height: 50rpx;
+		text-indent: 0px;
+		/* background: #007AFF; */
+		text-align: center;
+		/* opacity: 0.10; */
+		color: #502c1a;
+		font-weight: 900;
+		font-size: 28rpx;
+}
+.notice .item marquee {
+		width: 85%;
+		/* background-color: red; */
+		text-align: left;
+		color: #502c1a;
+		font-weight: 600;
+		font-size: 25rpx;
+		text-indent: 5rpx;
+}
+	
+	/* 以下是聊天室 */
+.roomList {
+		width: 100%;
+		height: 100%;
+		
+		margin-top: 100rpx;
+		margin-bottom: 200rpx;
+		
+		display: -webkit-box;
+		
+		display: -webkit-flex;
+		
+		display: -ms-flexbox;
+		
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		/* flex-wrap: wrap; */
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+}
+	
+	/* 	.roomList:after{
+		content: "";
+		width: 340upx;
+	} */
+.roomList .room{
+		width: 330rpx;
+		height: 468rpx;
+		/* margin-left: 50upx; */
+		margin-top: 15rpx;
+		border: 10rpx solid #795F25;
+		border-radius: 30rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		background: #007AFF;
+}
+.roomList .room:last-child{
+		margin-left: 30rpx;
+}
+.roomList .room_one {
+		background: url(http://down.hongxing.ws/static/img/room_20_2.jpg) no-repeat;
+		background-size: 335rpx 468rpx;
+}
+.roomList .room_two {
+		background: url(http://down.hongxing.ws/static/img/room_28_2.jpg) no-repeat;
+		background-size: 335rpx 468rpx;
+}
+.room image{
+		width: 345rpx;
+		height: 468rpx;
+}
+.roomList .room .room_block {
+		width: 95%;
+		height: 80%;
+		/* background: red; */
+}
+.roomList .room .room_introduction {
+		width: 100%;
+		height: 60rpx;
+		/* background: red; */
+		background: url(http://down.hongxing.ws/static/img/beijing_1.png) no-repeat;
+		background-size: contain;
+		margin-top: 5rpx;
+		background-position: center;
+}
+	
+

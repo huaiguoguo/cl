@@ -1,0 +1,117 @@
+/* 图标 */
+.bgd-foot-icon{background:url(../images/icon1.png) no-repeat; display:inline-block; background-size:12rem auto}
+
+/******底部图标*******/
+.foot-icon1{background-position:-3.8rem -3.23rem;}
+.foot-icon2{background-position:-3.8rem -2.2rem;}
+
+.foot-icon3{background-position:-5.59rem -3.23rem;}
+.foot-icon4{background-position:-5.59rem -2.2rem;}
+
+.foot-icon5{background-position:-7.35rem -3.23rem;}
+.foot-icon6{background-position:-7.35rem -2.2rem;}
+
+.foot-icon7{background-position:-9.05rem -3.23rem;}
+.foot-icon8{background-position:-9.05rem -2.2rem;}
+
+/***个人中心余额总回水推广提成***/
+.bgd-foot-icon1{background:url(../images/grzxdh.png) no-repeat; display:inline-block; background-size:100% 100%;}
+.bgd-foot-icon2{background:url(../images/xiahua.png) no-repeat; display:inline-block;background-size:6.42rem auto}
+.foot-icon9{background-position:-3.15rem -0.24rem;}
+
+/***个人中心图标**/
+.foot-icon10{background-position:-0.6rem -3.57rem;}
+.foot-icon11{background-position:-0.6rem -4.47rem;}
+.foot-icon12{background-position:-0.6rem -5.37rem;}
+.foot-icon13{background-position:-0.6rem -6.27rem;}
+.foot-icon14{background-position:-0.6rem -7.17rem;}
+.foot-icon15{background-position:-8rem -5.35rem;}
+.foot-icon16{background-position:-10.59rem -0.38rem;}
+.foot-icon30{background-position:-11.18rem -0.25rem;}
+
+/*******设置图标**********/
+.foot-icon17{background-position:-10.6rem -4.9rem;}
+.foot-icon18{background-position:-10.6rem -5.8rem;}
+.foot-icon19{background-position:-10.6rem -6.75rem;}
+.foot-icon20{background-position:-10.6rem -7.65rem;}
+.foot-icon21{background-position:-10.6rem -8.68rem;}
+.foot-icon22{background-position:-10.6rem -9.65rem;}
+.foot-icon23{background-position:-9.8rem -8.8rem;}
+.foot-icon24{background-position:-9.78rem -8.1rem;}
+.foot-icon25{background-position:-9.78rem -9.6rem;}
+
+/******财务中心****/
+.bgd-finance-icon{background:url(../images/icon1.png) no-repeat; display:inline-block;background-size:8rem auto}
+.finance-icon1{background-position:-0.32rem -0.1rem;}
+.finance-icon2{background-position:-1.6rem -0.3rem;}
+.finance-icon3{background-position:-0.32rem -0.9rem;}
+.finance-icon4{background-position:-1.6rem -1.4rem;}
+.finance-icon5{background-position:-0.32rem -1.6rem;}
+.finance-icon6{background-position:-1.6rem -2.55rem;}
+.finance-icon7{background-position:-11.3rem -1rem;}
+.finance-icon8{background-position:-8rem -5.3rem;}
+.bgd-finance-icon1{background:url(../images/icon1.png) no-repeat; display:inline-block;background-size:12rem auto}
+.finance-icon9{background-position:-0.57rem -3.75rem;}
+.bgd-finance-icon2{background:url(../images/icon1.png) no-repeat; display:inline-block;background-size:13rem auto}
+.finance-icon10{background-position:-10.61rem -8.07rem;}
+.finance-icon11{background-position:-0.72rem -10.3rem;}
+.finance-icon12{background-position:-0.72rem -8.8rem;}
+.finance-icon13{background-position:-0.72rem -9.5rem;}
+
+
+/******充值选择线上线下********/
+.recharge-icon1{background-position:-10.45rem -2.08rem;}
+.recharge-icon2{background-position:-10.7rem -4.05rem;}
+.recharge-icon3{background-position:-10.7rem -3.08rem;}
+.recharge-icon4{background-position:-10.65rem -2.53rem;}
+.recharge-icon5{background-position:-10.45rem -3.67rem;}
+.recharge-icon6{background-position:-6.6rem -7.69rem;}
+.recharge-icon7{background-position:-6.6rem -8.4rem;}
+
+/***********钱包*********/
+.bgd-wallet-icon{/*background:url(../images/yue.png) no-repeat;*/ display:inline-block;background-size:4.8rem auto}
+.bgd-wallet-icon1{background:url(../images/icon1.png) no-repeat; display:inline-block;background-size:8rem auto}
+.wallet-icon1{background-position:-0.31rem 0.05rem;}
+.wallet-icon2{background-position:-0.31rem -0.7rem;}
+.wallet-icon3{background-position:-0.62rem -7.9rem;}
+.wallet-icon4{background-position:-0.62rem -8.6rem;}
+.wallet-icon5{background-position:-8.05rem -4.63rem;}
+
+/*****主页*****/
+.bgd-index-icon2{background:url(../images/gonggao.png) no-repeat; display:inline-block;background-size:100% auto}
+
+/******房间赔率选择*******/
+.room-icon{background-position:-1rem -0.5rem;}
+
+
+/********房间列表************/
+.bgd-roomlist-icon1{background:url(../images/roomlist.png) no-repeat center center; background-size:2.8rem auto;}
+
+/*********投注************/
+.bgd-roomvip-icon{background:url(../images/roomvip-icon.png) no-repeat center center; background-size:10rem auto;}
+.bgd-roomvip-icon1{background:url(../images/roomvip-icon.png) no-repeat center center; background-size:10rem auto;}
+/*.bgd-roomvip-iocn1{background:url(../images/roomvipbg1-icon.png) top center no-repeat #877242;background-size:4rem auto;}*/
+.bgd-roomvip-iocn1{background:url(../images/roomvipbg1-icon.png) no-repeat center bottom #877242;background-size:4rem auto;background-position:78% 60%;}
+.bgd-roomvip-iocn2{background:url(../images/roomvipbg1-icon.png) no-repeat center bottom #4f809e;background-size:4rem auto;background-position:78% 60%;}
+.bgd-roomvip-iocn3{background:url(../images/roomvipbg1-icon.png) no-repeat center bottom #2c89c3;background-size:4rem auto;background-position:78% 60%;}
+.bgd-roomvip-iocn4{background:url(../images/roomvipbg1-icon.png) no-repeat center bottom #289063;background-size:4rem auto;background-position:78% 60%;}
+
+.roomvip-icon{background-position:0.2rem -0.6rem;}
+.roomvip-icon1{background-position:-7.2rem -3.1rem;}
+.roomvip-icon2{background-position:-3.63rem -3.25rem;}
+.roomvip-icon3{background-position:-4.41rem -3.25rem;}
+.roomvip-icon4{background-position:-5.18rem -3.25rem;}
+.roomvip-icon5{background-position:-5.95rem -3.25rem;}
+.roomvip-icon6{background-position:-9rem -2.95rem;}
+.roomvip-icon7{background-position:-4.41rem -3.2rem;}
+.roomvip-icon8{background-position:-8.4rem -3.12rem;}
+.roomvip-icon9{background-position:-7.2rem -3.06rem;}
+
+/********公告中心********/
+.bgd-ann-icon{background:url(../images/anncen.png) no-repeat center center; background-size:8rem auto;}
+.ann-icon1{background-position:-2.1rem -1rem;}
+.ann-icon2{background-position:-4.9rem -0.36rem;}
+.ann-icon3{background-position:-2.3rem -4.9rem;}
+.ann-icon4{background-position:-4.65rem -4.57rem;}
+.ann-icon5{background-position:-2.27rem -2.9rem;}
+.ann-icon6{background-position:-4.65rem -2.5rem;}

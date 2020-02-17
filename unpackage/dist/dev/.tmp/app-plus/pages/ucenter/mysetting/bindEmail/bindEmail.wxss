@@ -1,0 +1,70 @@
+
+page{
+	background: #000000;
+}
+.container {
+	width: 100%;
+	height: 100%;
+	color: #FFFFFF;
+}
+.edit_input {
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 30rpx;
+	border-bottom: 0.5px solid #CCCCCC;
+	margin-bottom: 30rpx;
+	margin-top: 30rpx;
+}
+.edit_input .title {
+	width: 15%;
+	height: 70rpx;
+	/* background: #0000FF; */
+	margin: 30rpx 0rpx;
+	margin-left: 30rpx;
+	text-align: center;
+	line-height: 70rpx;
+}
+.edit_input .input {
+	width: 50%;
+	height: 70rpx;
+	/* background: #ccc; */
+	line-height: 70rpx;
+	margin-left: 15rpx;
+}
+.edit_input .btn {
+	/* display: block; */
+	width: 30%;
+	height: 70rpx;
+	background: #efa909;
+	padding: 5rpx 0rpx;
+	text-align: center;
+	font-size: 28rpx;
+	border-radius: 10rpx;
+	line-height: 70rpx;
+	font-size: 28rpx;
+	margin-right: 20rpx;
+	margin-left: 5rpx;
+}
+.button {
+	width: 70%;
+	background: #efa909;
+	/* font-size: 30upx; */
+}
+

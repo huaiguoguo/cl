@@ -1,0 +1,113 @@
+
+page{
+	background: #000000;
+}
+.container {
+	width: 100%;
+	height: 100%;
+	color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.edit_input:first-child{
+	margin-top: 25rpx;
+}
+.edit_input {
+	width: 90%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: left;
+	-webkit-justify-content: left;
+	    -ms-flex-pack: left;
+	        justify-content: left;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 30rpx;
+	border-bottom: 0.5px solid #776f71;
+	margin: 0rpx 0px;
+	
+	/* line-height: 100%; */
+	
+	/* background: #0000FF; */
+	
+	padding: 30rpx 0rpx;
+}
+.edit_input .picker {
+	width: 40%;
+	height: 60rpx;
+	line-height: 60rpx;
+	text-align: center;
+	/* background: #0062CC; */
+}
+.edit_input .drop-arrow {
+	width: 15rpx;
+	height: 15rpx;
+	/* background: #00D400; */
+	border-top: 1rpx solid #FFFFFF;
+	border-right: 1rpx solid #FFFFFF;
+	-webkit-transform: rotate(135deg);
+	    -ms-transform: rotate(135deg);
+	        transform: rotate(135deg);
+	margin-left: 0rpx;
+}
+.edit_input .title {
+	width: 20%;
+	height: 60rpx;
+	line-height: 60rpx;
+	/* background: #0000FF; */
+	/* margin: 20upx 0upx; */
+	margin-left: 30rpx;
+	text-align: center;
+	font-size: 28rpx;
+}
+.edit_input .input {
+	width: 50%;
+	height: 60rpx;
+	/* background: red; */
+	margin-left: 15rpx;
+	line-height: 60rpx;
+}
+.edit_input .code {
+	/* display: block; */
+	width: 20%;
+	height: 60rpx;
+	line-height: 60rpx;
+	background: #9b8c48;
+	padding: 20rpx 10rpx;
+	/* margin: 30upx 0upx; */
+	margin-left: 70rpx;
+	text-align: center;
+	font-size: 30rpx;
+}
+.button {
+	width: 70%;
+	background: #efa909;
+	/* font-size: 30upx; */
+	margin-top: 35rpx;
+}
+

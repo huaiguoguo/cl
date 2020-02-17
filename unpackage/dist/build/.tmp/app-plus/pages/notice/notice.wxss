@@ -1,0 +1,94 @@
+
+page {
+	background: #000000;
+}
+.container {
+	width: 100%;
+	height: 100%;
+	/* background: #000000; */
+	color: #FFFFFF;
+}
+.container .navbar {
+	width: 100%;
+	height: 100%;
+	/* border: 1px solid #000000; */
+	
+	display: -webkit-box;
+	
+	display: -webkit-flex;
+	
+	display: -ms-flexbox;
+	
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.container .navbar .item {
+	width: 50%;
+	height: 100%;
+	border: 1px solid #CCCACC;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 30rpx;
+	padding: 15rpx 0rpx;
+}
+.container .navbar .item:first-child{
+	border-right: 0px;
+}
+.container .navbar .active {
+	color: #EBAC3C;
+}
+/* 消息列表 */
+.container .messageList{
+	width: 100%;
+	height: 100%;
+	margin-top: 30rpx;
+}
+.container .messageList .item {
+	width: 100%;
+	height: 80rpx;
+	border-bottom: 1px solid #776f71;
+	line-height: 80rpx;
+	
+	display: -webkit-box;
+	
+	display: -webkit-flex;
+	
+	display: -ms-flexbox;
+	
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	/* padding-left: 10upx; */
+	/* padding:0upx 50upx; */
+}
+.container .messageList .item .content {
+	padding-left: 15rpx;
+}
+.container .messageList .item .date {
+	padding-right: 15rpx;
+}
+
+
